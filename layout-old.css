@@ -1,0 +1,23 @@
+.wrapper{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 196px auto;
+    grid-template-rows: 56px auto 56px;
+  }
+  .header{
+    grid-column: 1/-1;
+  }
+  .left_menu{
+    grid-row: 2/-1;
+    background-color: rgba(79, 70, 229, 1)
+  }
+  .footer{
+    grid-column: 2 / -1;      
+  }
+  .content{
+    grid-column: 2 / -1; 
+    padding: 16px;
+  }
+  .top-side{
+    width: 196px;
+  }
